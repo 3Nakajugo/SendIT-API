@@ -1,0 +1,12 @@
+language: python
+python:
+  - "3.8.7"
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+script:
+  - coveralls
+  - pytest 
+  # coverage run --source=. manage.py test
+after_script:
+  -coveralls
