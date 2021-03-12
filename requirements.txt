@@ -25,6 +25,7 @@ pycodestyle==2.6.0
 pylint==2.7.2
 pyparsing==2.4.7
 pytest==6.2.2
+pytest-cov==2.11.1
 requests==2.25.1
 toml==0.10.2
 urllib3==1.26.3
