@@ -7,3 +7,4 @@ omit =
     */tests/__init__.py 
     */tests/*
     */env/*
+    */home/travis/virtualenv/*
